@@ -23,7 +23,7 @@
 				$(function(){
 
 
-					/*$("a").hide().fadeIn(6000);*/
+					$("a").hide().fadeIn(6000);
 					
 					
 					
@@ -33,19 +33,21 @@
 
 			<script>
 	var i = 0; // Start point
-	var images = [];
+	var images = []; //array para las imagenes
 	var time = 3000;
 
 	// Image List
 	images[0] = 'imagenes/catalina.jpg';
-	images[1] = 'imagenes/arroyo.jpg';
-	images[2] = 'imagenes/ocaso.jpg';
-	images[3] = 'imagenes/londres.png';
+	images[1] = 'imagenes/BocaChica.jpg';
+	images[2] = 'imagenes/puntacana.jpg';
+	
 
 	// Change Image
 	function changeImg(){
-		document.slide.src = images[i];
+		document.slide.src = images[i]; 
 
+					
+//slide es el objeto que va a recibir todas la images del array
 		if(i < images.length - 1){
 			i++;
 		} else {
@@ -87,7 +89,9 @@
 					
 					
 					<div><a href="#"><img name="slide"/></a></div>
-					
+					<!--se coloca slide con el attributo name-->
+					<!--NOTA: NO OLVIDES PONER LA PROPIEDAD overflow:hidden en el slideshow del
+						documento css-->
 
 					 
 				</div>
