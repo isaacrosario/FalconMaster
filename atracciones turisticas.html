@@ -8,59 +8,9 @@
 		<meta name="keywords" content="Aqui, palabras, claves">
 		<link rel="stylesheet" type="text/css" href="css/estilos.css"/>
 		<title>Atracciones Turisticas RD</title>
-        <script src="http://code.jquery.com/jquery-latest.min.js"></script>
-        <script src="js2/jquery.slides.min.js"></script>
-
-		<script>
-            $(function(){
-                $("#slideshow").slides();
-            });
-        </script>
-
-        <script src="js/jquery-3.3.1.js"> //http://code.jquery.com/jquery-latest.min.js libreria online
-</script>
-			<script>
-				$(function(){
-
-
-					/*$("a").hide().fadeIn(6000);*/
-					
-					
-					
-				});
-				
-			</script>
-
-			<script>
-	var i = 0; // Start point
-	var images = []; //array para las imagenes
-	var time = 3000;
-
-	// Image List
-	images[0] = 'imagenes/catalina.jpg';
-	images[1] = 'imagenes/BocaChica.jpg';
-	images[2] = 'imagenes/puntacana.jpg';
-	
-
-	// Change Image
-	function changeImg(){
-		document.slide.src = images[i]; 
-
-					
-//slide es el objeto que va a recibir todas la images del array
-		if(i < images.length - 1){
-			i++;
-		} else {
-			i = 0;
-		}
-
-		setTimeout("changeImg()", time);
-	}
-
-	window.onload = changeImg;
-
-
-</script>
+        
+			
+		
 
 	</head>
 
@@ -179,7 +129,10 @@
 
 	</section>
 
-	
+<script src="http://code.jquery.com/jquery-latest.min.js"></script>
+<script src="js/jquery-3.3.1.js"></script>
+<script src="js/slide.js"></script>	
+<script src="js/efectos.js"></script>
 
 </body>
 
