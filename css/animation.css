@@ -25,7 +25,7 @@ header #subheader nav ul li a {animation: colorAnimate 10s;}/*linear infinite*/
      }
  }
 
-#logotipo,#slideshow,#bienvenidos {
+.thumb,.widget img,.widget h3,.titulo{
   
   
   

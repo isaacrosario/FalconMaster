@@ -1,11 +1,13 @@
 
 				$(function(){
 
-
-					$("nav").slideUp(2000);
-					$("nav").slideDown(2000);
-					$("nav").hide().fadeOut(2000);
-					$("nav").hide().fadeIn(2000);
+    				
+					$("#slideshow").slideUp(2000);
+					$("#slideshow").slideDown(2000);
+					
+					
+					$("#logotipo").hide().fadeIn(12000);
+					$("nav").hide().fadeIn(12000);
 					
 					
 					
