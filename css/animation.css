@@ -1,7 +1,7 @@
-#logotipo a {animation: colorAnimate 10s;}/*linear infinite*/
-header #subheader nav ul li a {animation: colorAnimate 10s;}/*linear infinite*/
+/*#logotipo a {animation: colorAnimate 10s;}/*linear infinite*/
+/*header #subheader nav ul li a {animation: colorAnimate 10s;}/*linear infinite*/
 
- @keyframes colorAnimate
+ /*@keyframes colorAnimate
  {
      0%
      {
@@ -23,7 +23,7 @@ header #subheader nav ul li a {animation: colorAnimate 10s;}/*linear infinite*/
      {
          color: #c30000;
      }
- }
+ }*/
 
 .thumb,.widget img,.widget h3,.titulo{
   
