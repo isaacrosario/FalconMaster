@@ -307,42 +307,6 @@ footer #acerca-de h3 {
 	margin-bottom:5px;
 }
 
-footer #redes-s > div {
-	width:220px;
-	height:60px;
-	float:left;
-	background:#ff8000;
-	opacity:0.7;
-}
-
-footer #redes-s > div a {
-	width:220px;
-	height:60px;
-	display:inline-block;
-}
-
-footer #redes-s .email {
-	background:url('../imagenes/correo.png');
-	margin-bottom:10px;
-}
-
-footer #redes-s .twitter {
-	background:url('../imagenes/twitter.png');
-	margin-bottom:10px;
-}
-
-footer #redes-s .facebook {
-	background:url('../imagenes/facebook.png');
-}
-
-footer #redes-s .youtube {
-	background:url('../imagenes/youtube.png');
-}
-
-footer #redes-s > div:hover {
-	opacity:1;
-}
-
 #copyright {
 	float:left;
 	width:960px;
@@ -355,6 +319,125 @@ footer #redes-s > div:hover {
 	color:#fff;
 	font-family:Arial, Helvetica, Sans-serif;
 }
+
+
+
+footer #redes-s > div:hover {
+	opacity:1;
+}
+/*tamaño de los iconos*/
+
+
+
+
+footer #redes-s .twitter a img {
+	width: 64px;
+	height: auto;
+	margin-bottom: 10px;
+	
+	
+}
+footer #redes-s .youtube a img {
+	width: 64px;
+	height: auto;
+}
+footer #redes-s .facebook a img {
+	width: 64px;
+	height: auto;
+	
+
+}
+
+/*INVENTANDO*/
+footer #redes-s > div {
+	width:220px;
+	height:60px;
+	float:left;
+	opacity:0.7;
+	display:inline-block;
+	
+	
+
+}
+/*PONIENDOLE LAS MEDIDAS DE MARGIN Y PADDING A LAS REDES*/
+footer #redes-s .email p {
+	
+	color: #fff;
+	
+
+padding: 20px 0px 0px 0px;
+margin: 5px 23px 0px 0px;
+float: right;
+
+
+}
+
+footer #redes-s .youtube p {
+	
+	color: #fff;
+	
+
+padding: 22px 66px 0px 0px;
+margin: 5px 23px 0px 0px;
+float: right;
+
+
+
+}
+footer #redes-s .twitter p {
+	
+	color: #fff;
+
+
+padding: 20px 76px 0px 0px;
+margin: 5px 23px 0px 0px;
+float: right;
+
+
+}
+
+footer #redes-s .facebook p {
+	
+	color: #fff;
+	
+
+padding: 20px 53px 0px 0px;
+margin: 5px 22px 0px 0px;
+float: right;
+
+
+}
+/*PONIENDOLE LOS 64PX A LAS IMGANES*/
+footer #redes-s .email img {
+	width: 57px;
+	height: auto;
+
+}
+footer #redes-s .youtube img {
+	width: 57px;
+	height: auto;
+	
+	
+
+
+}
+footer #redes-s .twitter img {
+	width: 57px;
+	height: auto ;
+	
+
+}
+footer #redes-s .facebook img {
+	width: 57px;
+	height: auto;
+
+	
+
+
+}
+
+
+
 
 
 
