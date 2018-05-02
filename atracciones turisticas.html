@@ -35,16 +35,33 @@
 		<section id="main">
 
 			<section id="slideshow">
-				<div class="slides_container">
+				<div class="slides_container slides">
+													
+
+					 
+			<img src="imagenes/bocachica/bocachica1.jpg" alt="">
+			<img src="imagenes/bocachica/bocachica2.jpg" alt="">
+			<img src="imagenes/bocachica/bocachica3.jpg" alt="">
+			<img src="imagenes/bocachica/bocachica4.jpg" alt="">
+			<img src="imagenes/bocachica/bocachica5.jpg" alt="">
+
+			<img src="imagenes/puntacana/puntacana1.jpg" alt="">
+			<img src="imagenes/puntacana/puntacana2.jpg" alt="">
+			<img src="imagenes/puntacana/puntacana3.jpg" alt="">
+			<img src="imagenes/puntacana/puntacana4.jpg" alt="">
+			<img src="imagenes/puntacana/puntacana5.jpg" alt="">
+
+				
 					
-					
-					
-					<div><a href="#"><img name="slide"/></a></div>
+
+					<!--   <a href="#"><img name="slide"/></a>  --> <!-- esta linea de codigo espara el slide que cambia de repente -->
+
 					<!--se coloca slide con el attributo name-->
 					<!--NOTA: NO OLVIDES PONER LA PROPIEDAD overflow:hidden en el slideshow del
 						documento css-->
+			
 
-					 
+
 				</div>
 			</section>
 
@@ -132,8 +149,35 @@
 <script src="http://code.jquery.com/jquery-latest.min.js"></script>
 <script src="js/jquery-3.3.1.js"></script>
 <script src="js/efectos.js"></script>
-<script src="js/slideshow.js"></script>	
+<script src="js/slideshow.js"></script>	<!--esta linea de codigo es para el slide que cambia de repente-->
+<script src="js/jquery.slides.js"></script>
 
+<script >
+	$(function(){
+      $(".slides").slidesjs({
+     
+play: {
+      active: true,
+        // [boolean] Generate the play and stop buttons.
+        // You cannot use your own buttons. Sorry.
+      effect: "slide",
+        // [string] Can be either "slide" or "fade".
+      interval: 3000,
+        // [number] Time spent on each slide in milliseconds.
+      auto: true,
+        // [boolean] Start playing the slideshow on load.
+      swap: true,
+        // [boolean] show/hide stop and play buttons
+      pauseOnHover: false,
+        // [boolean] pause a playing slideshow on hover
+      restartDelay: 2500
+        // [number] restart delay on inactive slideshow
+    }
+
+      });
+    });
+
+</script>
 
 
 
